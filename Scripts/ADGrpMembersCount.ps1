@@ -1,0 +1,1 @@
+﻿((Get-ADGroup -Identity 'VPN_Europe_Split_Devices' -Properties Members).Members).Count

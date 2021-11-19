@@ -1,0 +1,1 @@
+﻿Get-ADUser -Properties msExchHomeServerName,targetAddress,msExchRecipientDisplayType,msExchArchiveAddress,MemberOf,extensionAttribute14 -Filter {Samaccountname -eq 'Fiebiga'}
